@@ -4,9 +4,8 @@
 
   <simplesect>
     <title>Books</title>
-
-    <para>There are no books entirely dedicated to programming with FXRuby,
-    but the following Ruby books contain sections on FXRuby:</para>
+    <para>The best book on application development with Ruby and FXRuby is <citetitle>FXRuby: Create Lean and Mean GUIs with Ruby</citetitle>,
+    by Lyle Johnson, published by the Pragmatic Programmers. The following Ruby books also contain sections on FXRuby:</para>
 
     <itemizedlist mark="bullet">
       <listitem>

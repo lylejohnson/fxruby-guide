@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appendix id="git">
+  <title>Getting the Sources from GitHub</title>
+
+  <para>The canonical source code repository for FXRuby is maintained
+  at <ulink url="http://github.com/lylejohnson/fxruby/">GitHub</ulink>.
+  For up-to-date instructions on how to check out the sources for the
+  development release of FXRuby and then build FXRuby from those sources,
+  please see the <ulink url="http://wiki.github.com/lylejohnson/fxruby">FXRuby Wiki</ulink> at GitHub.</para>
+
+</appendix>

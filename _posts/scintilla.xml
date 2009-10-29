@@ -61,13 +61,13 @@
     typing:</para>
 
     <screen>
-$ <command>sudo gem install fxruby-1.6.7.gem --force -- --with-fxscintilla-include=/usr/local/include/fxscintilla --with-fxscintilla-lib=/usr/local/lib</command>
+$ <command>sudo gem install FXRuby-1.6.19.gem -- --with-fxscintilla-include=/usr/local/include/fxscintilla --with-fxscintilla-lib=/usr/local/lib</command>
 </screen>
 
     <para>or, when compiling with Microsoft Visual C++, by typing:</para>
 
     <screen>
-C:\&gt; <command>gem install fxruby-1.6.7.gem --force -- --with-fox-include=C:\fox-1.6.25\include --with-fox-lib=C:\fox-1.6.25\lib --with-fxscintilla-include=C:\fxscintilla-1.71\include --with-fxscintilla-lib=C:\fxscintilla-1.71\lib</command>
+C:\&gt; <command>gem install FXRuby-1.6.19.gem -- --with-fox-include=C:\fox-1.6.36\include --with-fox-lib=C:\fox-1.6.36\lib --with-fxscintilla-include=C:\fxscintilla-1.71\include --with-fxscintilla-lib=C:\fxscintilla-1.71\lib</command>
 </screen>
 
     <para>Past this point, the build and installation process for either

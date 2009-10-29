@@ -33,19 +33,23 @@ of the most popular GUI options for Ruby:
 * In a <ulink url="http://www.rubygarden.org/pollBooth.php?op=results&amp;pollID=4">
   Ruby Garden poll</ulink> held in July 2001, FXRuby edged out Ruby/GTK as the
   most-preferred GUI writing toolkit for Ruby.
-* In August 2001, FXRuby was added to the Pragmatic Programmers'
-  <ulink url="http://rubyinstaller.sourceforge.net">
-  Windows installer for Ruby</ulink>.
+* In August 2001, FXRuby was added to the
+  <ulink url="http://rubyinstaller.rubyforge.org/">
+  One-Click Installer for Ruby on Windows</ulink>.
 * In October 2001, Lyle gave a presentation on
   <ulink url="http://www.rubyconf.org/2001/talks/lyle/lylefox.htm">
   "Developing GUIs with FOX and Ruby"</ulink> at the first annual Ruby
   Conference in Tampa, Florida.
-* Although the lack of documentation has been a sore spot for
+* Although the lack of documentation was a problem for
   some time, several Ruby books (such as the <citetitle pubwork="book">
   Ruby Developer's Guide</citetitle> and <citetitle pubwork="book">The Ruby
-  Way</citetitle>) feature FXRuby as a Ruby GUI development option.
+  Way</citetitle>) featured FXRuby as a Ruby GUI development option.
+  Then, in April 2008, the Pragmatic Programmers published <citetitle>FXRuby: Create Lean and Mean GUIs with Ruby</citetitle>,
+  the first book about application development with FXRuby.
 * FXRuby is used as the GUI for <ulink url="http://freeride.rubyforge.org/wiki/wiki.pl">
-  FreeRIDE</ulink> and a number of other Ruby-based projects.
+  FreeRIDE</ulink>, <ulink url="http://www.discretizer.org/">Discretizer</ulink>,
+  <ulink url="http://www.attiksystem.ch/beerp/beerp-the-fxruby-erp/">BEERP</ulink>,
+  and a number of other interesting Ruby-based applications.
 
 Most recently, work has focused on keeping FXRuby up-to-date with the
 still evolving FOX library while looking for new ways to make Ruby GUI
