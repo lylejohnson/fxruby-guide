@@ -29,10 +29,10 @@
     and installed FOX. Next, you'll need to download the FXRuby source code
     tarball and unpack it by typing:</para>
 
-    <screen>$ <command>tar xzf FXRuby-1.6.13.tar.gz</command></screen>
+    <screen>$ <command>tar xzf FXRuby-1.6.19.tar.gz</command></screen>
 
     <para>This will create a new directory called <filename
-    class="directory">FXRuby-1.6.13</filename>. Change to the top-level
+    class="directory">FXRuby-1.6.19</filename>. Change to the top-level
     directory and configure the build by typing:</para>
 
     <screen>$ <command>ruby install.rb config</command></screen>
@@ -45,8 +45,8 @@
     <filename>install.rb</filename> during this step, e.g.</para>
 
     <screen>$ <command>ruby install.rb config -- \
-    --with-fox-include=/home/lyle/fox-1.6.32/include \
-    --with-fox-lib=/home/lyle/fox-1.6.32/src/.libs</command></screen>
+    --with-fox-include=/home/lyle/fox-1.6.36/include \
+    --with-fox-lib=/home/lyle/fox-1.6.36/src/.libs</command></screen>
 
     <para>Once the build has been configured, you can start the build by
     typing:</para>
@@ -107,14 +107,14 @@ C:\ruby-1.8.6&gt;<command>nmake</command></screen>
 
     <para>Now you can configure the FXRuby build by typing:</para>
 
-    <screen>C:\FXRuby-1.6.13&gt;<command>ruby install.rb config --make-prog=nmake -- \
-    --with-fox-include=C:\fox-1.6.32\include \
-    --with-fox-lib=C:\fox-1.6.32\lib</command></screen>
+    <screen>C:\FXRuby-1.6.19&gt;<command>ruby install.rb config --make-prog=nmake -- \
+    --with-fox-include=C:\fox-1.6.36\include \
+    --with-fox-lib=C:\fox-1.6.36\lib</command></screen>
 
     <para>Once the build has been configured, you can start the build by
     typing:</para>
 
-    <screen>C:\FXRuby-1.6.13&gt; <command>ruby install.rb setup</command></screen>
+    <screen>C:\FXRuby-1.6.19&gt; <command>ruby install.rb setup</command></screen>
 
     <para>It will take quite awhile to build FXRuby, even on a fast machine,
     so this might be a good time to take a coffee break. Because Visual C++ is
@@ -128,12 +128,12 @@ C:\ruby-1.8.6&gt;<command>nmake</command></screen>
 
     <para>Once it's finished compiling, install FXRuby by typing:</para>
 
-    <screen>C:\FXRuby-1.6.13&gt; <command>ruby install.rb install</command></screen>
+    <screen>C:\FXRuby-1.6.19&gt; <command>ruby install.rb install</command></screen>
 
     <para>As a quick sanity check, to make sure that all is well, you should
     probably fire up <filename>irb</filename> and try to import FXRuby:</para>
 
-    <screen>C:\FXRuby-1.6.13&gt; <command>irb</command>
+    <screen>C:\FXRuby-1.6.19&gt; <command>irb</command>
 irb(main):001:0&gt; <userinput>require 'fox16'</userinput>
 true
 irb(main):002:0&gt;</screen>

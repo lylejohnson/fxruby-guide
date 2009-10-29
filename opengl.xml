@@ -24,43 +24,15 @@
   <simplesect>
     <title>OpenGL Extensions for Ruby</title>
 
-    <para>This extension module, developed by Yoshiyuki Kusano, provides
+    <para>The <ulink url="http://ruby-opengl.rubyforge.org/">ruby-opengl</ulink> extension module, originally developed by Yoshiyuki Kusano and
+        currently maintained by Alain Hoang, provides
     interfaces to not only the basic OpenGL API, but also the GLU and GLUT
-    APIs. As of this writing, the currently released version is 0.32d and is
-    available for download from <ulink
-    url="http://www2.giganet.net/~yoshi/rbogl-0.32b.tgz">http://www2.giganet.net/~yoshi/rbogl-0.32d.tgz</ulink>.
-    Be sure to check the <ulink
-    url="http://www.ruby-lang.org/en/raa.html">Ruby Application
-    Archive</ulink> for the latest version of this extension as it is still
-    under development.</para>
+    APIs. As of this writing, the currently released version is 0.60.1.
+    You can install it by typing:</para>
 
-    <para>Once you've downloaded the tarball, you should extract its contents
-    to the working directory of your choice by typing:</para>
+    <screen>$ <command>gem install ruby-opengl</command></screen>
 
-    <screen>$ <command>tar xzf rbogl-0.32d.tgz</command></screen>
-
-    <para>After executing this command you should have a new <filename
-    class="directory">opengl</filename> (<emphasis>not</emphasis> <filename
-    class="directory">rbogl-0.32b</filename>) subdirectory. Change to this
-    directory and then type:</para>
-
-    <screen>$ <command>ruby extconf.rb</command></screen>
-
-    <para>This should create a <filename>Makefile</filename> configured
-    appropriately for your local Ruby installation. To now build the OpenGL
-    module, type:</para>
-
-    <screen>$ <command>make</command></screen>
-
-    <para>You can safely ignore the warning(s) about
-    <methodname>glut_KeyboardFunc</methodname> when it's compiling
-    <filename>glut.c</filename>. Well, I ignore them and it hasn't hurt me yet
-    ;) Assuming you get an otherwise clean build, install the OpenGL
-    extensions by typing:</para>
-
-    <screen>$ <command>make site-install</command></screen>
-
-    <para>Please note that I'm not the maintainer of this particular Ruby
+    <para>Please note that since I'm not the maintainer of this particular Ruby
     extension, so I can't really accept bug fixes for it. But if you're having
     trouble integrating Ruby/OpenGL with FXRuby, let me know and we'll see
     what we can do.</para>

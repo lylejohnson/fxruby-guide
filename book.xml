@@ -5,13 +5,13 @@
 <!ENTITY bookinfo.xml SYSTEM "bookinfo.xml">
 <!ENTITY build.xml SYSTEM "build.xml">
 <!ENTITY changes.xml SYSTEM "changes.xml">
-<!ENTITY subversion.xml SYSTEM "subversion.xml">
 <!ENTITY differences.xml SYSTEM "differences.xml">
 <!ENTITY clipboardtut.xml SYSTEM "clipboardtut.xml">
 <!ENTITY dragdroptut.xml SYSTEM "dragdroptut.xml">
 <!ENTITY examples.xml SYSTEM "examples.xml">
 <!ENTITY events.xml SYSTEM "events.xml">
 <!ENTITY gems.xml SYSTEM "gems.xml">
+<!ENTITY git.xml SYSTEM "git.xml">
 <!ENTITY goals.xml SYSTEM "goals.xml">
 <!ENTITY implementation.xml SYSTEM "implementation.xml">
 <!ENTITY infosources.xml SYSTEM "infosources.xml">
@@ -46,6 +46,6 @@
 &differences.xml;
 &library.xml;
 &implementation.xml;
-&subversion.xml;
+&git.xml;
 </part>
 </book>
