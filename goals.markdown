@@ -3,9 +3,9 @@ layout: default
 title: History and Goals
 ---
 
-p. The primary goal of this project was (and is) to provide a complete
-interface to <ulink url="http://www.fox-toolkit.com">FOX</ulink> from
-<ulink url="http://www.ruby-lang.org">Ruby</ulink>. Ruby programs should
+The primary goal of this project was (and is) to provide a complete
+interface to [FOX](http://www.fox-toolkit.org/) from
+[Ruby](http://www.ruby-lang.org/). Ruby programs should
 be able to access FOX classes transparently; this includes deriving new
 Ruby classes from FOX classes and overriding their virtual functions. This
 goal has been met pretty well at this point although there are undoubtedly
@@ -30,25 +30,22 @@ and FOX fills that need.
 Since its first public release in January 2001, FXRuby has become one
 of the most popular GUI options for Ruby:
 
-* In a <ulink url="http://www.rubygarden.org/pollBooth.php?op=results&amp;pollID=4">
-  Ruby Garden poll</ulink> held in July 2001, FXRuby edged out Ruby/GTK as the
+* In a 
+  [Ruby Garden poll](http://www.rubygarden.org/pollBooth.php?op=results&amp;pollID=4) held in July 2001, FXRuby edged out Ruby/GTK as the
   most-preferred GUI writing toolkit for Ruby.
 * In August 2001, FXRuby was added to the
-  <ulink url="http://rubyinstaller.rubyforge.org/">
-  One-Click Installer for Ruby on Windows</ulink>.
+  [One-Click Installer for Ruby on Windows](http://rubyinstaller.rubyforge.org/).
 * In October 2001, Lyle gave a presentation on
-  <ulink url="http://www.rubyconf.org/2001/talks/lyle/lylefox.htm">
-  "Developing GUIs with FOX and Ruby"</ulink> at the first annual Ruby
+  ["Developing GUIs with FOX and Ruby"](http://www.rubyconf.org/2001/talks/lyle/lylefox.htm) at the first annual Ruby
   Conference in Tampa, Florida.
 * Although the lack of documentation was a problem for
-  some time, several Ruby books (such as the <citetitle pubwork="book">
-  Ruby Developer's Guide</citetitle> and <citetitle pubwork="book">The Ruby
-  Way</citetitle>) featured FXRuby as a Ruby GUI development option.
-  Then, in April 2008, the Pragmatic Programmers published <citetitle>FXRuby: Create Lean and Mean GUIs with Ruby</citetitle>,
+  some time, several Ruby books (such as the <cite>Ruby Developer's Guide</cite> and <cite>The Ruby
+  Way</cite>) featured FXRuby as a Ruby GUI development option.
+  Then, in April 2008, the Pragmatic Programmers published <cite>FXRuby: Create Lean and Mean GUIs with Ruby</cite>,
   the first book about application development with FXRuby.
-* FXRuby is used as the GUI for <ulink url="http://freeride.rubyforge.org/wiki/wiki.pl">
-  FreeRIDE</ulink>, <ulink url="http://www.discretizer.org/">Discretizer</ulink>,
-  <ulink url="http://www.attiksystem.ch/beerp/beerp-the-fxruby-erp/">BEERP</ulink>,
+* FXRuby is used as the GUI for 
+  [FreeRIDE](http://freeride.rubyforge.org/wiki/wiki.pl), [Discretizer](http://www.discretizer.org/),
+  [BEERP](http://www.attiksystem.ch/beerp/beerp-the-fxruby-erp/),
   and a number of other interesting Ruby-based applications.
 
 Most recently, work has focused on keeping FXRuby up-to-date with the
@@ -56,9 +53,10 @@ still evolving FOX library while looking for new ways to make Ruby GUI
 development fun. If you have suggestions about where you'd like to
 see things go, feel free to drop me an e-mail.
 
-h2. About this Document
+About this Document
+-------------------
 
-The contents of this document were written using <ulink url="http://docbook.org/whatis">DocBook</ulink> version 5.0.
+The contents of this document were written using [DocBook](http://docbook.org/whatis) version 5.0.
 The HTML version of this document uses the CSS stylesheet originally developed for the
-HTML version of the book <ulink url="http://svnbook.red-bean.com/">Version Control with Subversion</ulink>,
-which is licensed under the <ulink url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</ulink>.
+HTML version of the book [Version Control with Subversion](http://svnbook.red-bean.com/),
+which is licensed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/2.0/).
